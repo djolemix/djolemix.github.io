@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'cloister Black';
+  src: url('./../fonts/CloisterBlack.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acidic';
+  src: url('./../fonts/Acidic.TTF') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'el Diablo';
+  src: url('./../fonts/eldiablo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bleeding Cowboys';
+  src: url('./../fonts/Bleeding_Cowboys.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1{
+  font-family: 'cloister Black', sans-serif;
+  font-size: 3rem;
+  color: red;
+  text-align: center;
+}
+
+p{
+  color: red;
+  font-family: 'Acidic', sans-serif;
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  color: rgb(255, 213, 213);
+  font-family: 'el Diablo', sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'bleeding Cowboys', sans-serif;
+  color:brown
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+}
